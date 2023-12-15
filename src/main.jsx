@@ -1,5 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import Grid from './routes/grid.jsx'
 import {
   createBrowserRouter,
   RouterProvider,
@@ -14,6 +15,10 @@ const router = createBrowserRouter([
     element: <Root/>,
     errorElement: <ErrorPage/>,
 
+  },
+  {
+    path: "/grid",
+    element: <Grid/>,
   },
   
 ]);

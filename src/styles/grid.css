@@ -1,0 +1,58 @@
+
+.centerItem
+{
+
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+.backgroundPlate
+{
+    width: 100%;
+    height: 100%;
+    background-color: #e33838;
+}
+
+.gridWrapper
+{
+    width: 100%;
+    height: 100%;
+
+
+
+}
+.backgroundImg
+{
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+    background-image: url("../../public/beachGrid.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: 2000px;
+
+
+
+}
+
+.grid
+{
+    display: grid;
+    margin-left: 2px;
+    width: 100%;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+    grid-template-rows: 100% ;
+
+}
+.heroImg
+{
+    padding: 4px;
+
+    background-image: url("../../public/hero.png");
+    width: 50px;
+    height: 50px;
+}
+
